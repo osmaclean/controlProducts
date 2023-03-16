@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(48,48,48);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #f5f5f5;
+    padding: .625rem;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 90%;
+}
+
+header img#img {
+    width: 4.375rem;
+    height: 4.375rem;
+    margin-top: 1.28rem;
+}
+
+h1#title {
+    font-size: 1.3rem;
+    margin-top: 2.5rem;
+
+}
+
+section#mainContent {
+    gap: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: .625rem;
+    margin-top: .625rem;
+    width: 95%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-shadow: 7px 7px 5px -3px rgba(255,255,255,0.47);
+    -moz-box-shadow: 7px 7px 5px -3px rgba(255,255,255,0.47);
+    box-shadow: 7px 7px 5px -3px rgba(255,255,255,0.47);
+}
+
+section#mainContent :is(h2, span) {
+    margin-top: 10px;
+    color: #303030;
+}
+
+section#mainContent div#card {
+    background-color: aliceblue;
+    color: rgb(48,48,48);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 95%;
+}
+
+section#mainContent div#card button {
+    border: 1px solid black;
+    padding: 10px;
+    color: white;
+    background-color: #303030;
+    border-radius: 5px;
+    font-weight: 600;
+    width: 80%;
+}
+
+/* section#mainContent div#card button:hover {
+
+} */
+
+section#mainContent div#card div#inputPd {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 100%;
+    gap: 10px;
+}
+
+section#mainContent div#card div#inputPd input {
+    padding: 7px;
+    border-radius: 5px;
+    border:  1px solid #ccc;
+    width: 100%;
+    text-align: center;
+    outline: 1px solid #ccc;
+}
+
+section#mainContent div#card div#inputPd label {
+    color: #303030;
+}
+
+section#mainContent div#products {
+    color: #303030;
+    width: 100%;
+    margin-top: 30px;
+}
+
+section#mainContent div#products table {
+    border-collapse: collapse;
+    border: 1px solid #303030;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+section#mainContent div#products table th {
+    background-color: #303030;
+    padding: 4px;
+    color: aliceblue;
+    font-size: .9rem;
+    height: 7vh;
+}
+
+section#mainContent div#products table td {
+    padding: 10px;
+    height: 9vh;
+    
+
+}
+
+section#mainContent div#products table td#deleteImg {
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+section#mainContent div#products table td img#deleteImg{
+    width: 25px;
+    height: 25px;
+   
+
+}
+
+section#mainContent div#products table thead {
+    width: 50%;
+}
+
+section#mainContent div#products table tr {
+    width: 100%;
+}
+
+section#mainContent div#products table tbody {
+    width: 50%;
+}
