@@ -66,8 +66,7 @@
                 let td_price = tr.insertCell()
                 let td_remove = tr.insertCell()
 
-                td_name.style.width = '100px'
-                td_price.style.width = '100px'
+
 
                 td_remove.setAttribute("id", 'deleteImg')
 
@@ -99,7 +98,7 @@
                 if (this.arr[i].id == id) {
                     this.arr.splice(i, 1);
                     tbody.deleteRow(i);
-                    alert(`Você está apagando a linha ${i}\nItem apagado com sucesso!`)
+                    alert(`Você está apagando o produto de ID ${id}\nItem apagado com sucesso!`)
                 }
             }
         }
