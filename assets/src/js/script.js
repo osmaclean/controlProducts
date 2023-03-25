@@ -101,6 +101,7 @@
                     alert(`Você está apagando o produto de ID ${id}\nItem apagado com sucesso!`)
                 }
             }
+            this.list()
         }
     }
 

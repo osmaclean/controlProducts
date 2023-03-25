@@ -308,7 +308,7 @@ section#mainContent div#products table tbody {
         border-radius: 5px;
         width: 95%;
         text-align: center;
-        
+        table-layout: fixed;
     }
     
     section#mainContent div#products table th {
@@ -323,7 +323,7 @@ section#mainContent div#products table tbody {
         padding: 10px;
         height: 9vh;
         font-size: 1.1rem;
-        
+        word-wrap: break-word;
     
     }
     
